@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" href="./assets/imc-icone.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/imc-icone.ico" type="image/x-icon">
+    <title>Calculadora - IMC</title>
+</head>
+
+<body>
+    <header>
+        <a href="#"><img src="./assets/logo-imc.png" class="img-logo"></a>
+        <a href="#" class="link-header">HOME</a>
+        <a href="#" class="link-header">PRODUCT</a>
+        <a href="#" class="link-header">SERVICE</a>
+        <a href="#" class="link-header">CONTACT</a>
+       
+
+    </header>
+    <div>
+      <div class="containerOne">
+        <img src="./assets/img-capa.jpg" class="imagem-capa">
+
+        <div class="containerTwo">
+            <h2 class="titulo">Calculadora - IMC</h2>
+
+            <p class="paragrafo-texto">O IMC corresponde à abreviação de Índice de Massa Corporal, um critério adotado pela Organização Mundial da
+                Saúde para calcular o peso ideal de indivíduos.
+                <br>
+                O cálculo do índice é realizado da seguinte maneira: divide-se o peso do paciente pela altura elevada ao
+                quadrado. Considera-se que o peso encontra-se dentro da faixa normal quando o resultado do IMC varia entre
+                18,5 e 24,9.
+                <br>
+                Deseja calcular o seu IMC? Insira o seu peso e altura nos campos abaixo e faça a comparação com os valores
+                da tabela. Importante: siga os exemplos e utilize pontos como separadores.
+            </p>
+        </div>
+
+    </div>
+    <div class="inputCalculo">
+     <div class="nome-b">
+        <label>
+            Nome:
+            <br>
+            <input type="text" class="nome">
+        </label>
+     </div>
+     <div class="altura-b" >
+        <label>
+            Altura  <small>(ex.: 1,70)</small>
+            <br>
+            <input type="number" min="1" max="100" step=",01" class="altura" placeholder="Metros">
+        </label>
+     </div>
+     <div class="peso-b">
+        <label>
+            Peso <small>(ex.: 69,2)</small>
+            <br>
+            <input type="number" min="1" class="peso" placeholder="Quilos">
+        </label>
+
+     </div>
+
+        <button class="calcularButton">Calcular ></button>
+        <button class="limparButton">Limpar ></button>
+
+        <div>
+            <p class="resultado"></p>
+        </div>
+
+    </div>
+
+</body>
+<script src="./script.js"></script>
+
+</html>

@@ -1,0 +1,129 @@
+*{
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 15px;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+}
+.ico-img{
+    border-radius: 50%;
+    border:2px solid white;
+}
+.img-logo{ 
+    width: 25%;
+    margin-bottom: 45px;
+}
+.link-header{
+    color: rgba(51, 100, 190, 0.807);
+    font-weight: 500;
+    font-size: 12px;
+}
+.imagem-capa{
+    width: 30%;
+}
+.containerOne{
+   display: flex;
+   margin-bottom: 30px;
+ margin-left: 3%;
+}
+.containerTwo{
+    margin-left: 30px;
+}
+
+.titulo{
+    color: rgba(51, 100, 190, 0.807);
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+paragrafo-texto{
+    color: rgba(5, 5, 5, 0.574);
+    font-weight: 500; 
+    width: 90%;
+}
+.nome-b{
+    color: rgba(51, 100, 190, 0.807);
+    font-weight: 500;
+    font-size: 16px;
+}
+.altura-b{
+    color: rgba(51, 100, 190, 0.807);
+    font-weight: 500;
+    font-size: 16px;
+}
+.peso-b{
+    color: rgba(51, 100, 190, 0.807);
+    font-weight: 500;
+    font-size: 16px;
+}
+.nome{
+    width: 13%;
+    height: 28px;
+    border-radius: 10px;
+}
+.altura{
+    width: 13%;
+    height: 28px;
+    border-radius: 10px;
+}
+.peso{
+    width: 13%;
+    height: 28px;
+    border-radius: 10px;
+}
+.inputCalculo{
+    margin: 5%;
+}
+.calcularButton{
+    height: 32px;
+    width: 87px;
+    border-radius: 19px;
+    background: rgba(51, 100, 190, 0.968);
+    font-weight: 600;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.867);
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    
+}
+.limparButton{
+    height: 32px;
+    width: 87px;
+    border-radius: 19px;
+    background: rgba(252, 165, 3, 0.968);
+    font-weight: 600;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.867);
+    border: none;
+    cursor: pointer;
+    
+}
+.resultado{
+    color: rgba(5, 5, 5, 0.85);
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 28%;
+    margin-top: -15%;
+   
+}
+
+.calcularButton:hover{
+    opacity: 0.9;
+}
+
+.calcularButton:active{
+    opacity: 0.7;
+}
+.limparButton:hover{
+    opacity: 0.9;
+}
+
+.limparButton:active{
+    opacity: 0.7;
+}
